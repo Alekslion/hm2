@@ -1,0 +1,54 @@
+body
+{
+font-family: 'Times New Roman', Times, serif;
+margin: 0px 20px;
+}
+div, p, span,button,form,a,ul,li
+{
+	box-sizing: border-box;
+}
+.topimage
+{
+	width: 200px;
+	height: 70px;
+}
+h1,span
+{	 
+	color: red;
+}
+
+h2
+{
+	background-color: green;
+	color: #fff;
+}
+p.block
+{
+width: 100px; 
+height: 80px;
+background-color: blue;
+color: #fff;
+margin-bottom: 100px;
+opacity: 1;
+}
+p.block:hover
+{
+	opacity: 0.5;
+	
+}
+p a:hover
+{
+	font-size: 20px;
+}
+.secondh
+{
+  background-color: green;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.firstlist li
+{
+	font-size: 30px;
+	border: 2px solid;
+}
