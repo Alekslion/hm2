@@ -42,7 +42,6 @@ padding-bottom: 72px;
 .offer
 {
 	width: 560px;
-	margin-top: 147px;
 	font-family: 'Open Sans',  sans-serif;
 	font-size: 37px;
 	line-height: 49px;
@@ -108,11 +107,15 @@ width: 400px;
 {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .learn
 {
+	display: flex;
+	justify-content: space-between;
 	padding-top: 108;
 	padding-bottom: 120px;
+	
 }
 .section-title
 {
@@ -128,6 +131,7 @@ width: 400px;
 	font-family: 'Ubuntu',sans-serif;
 	color: #201b2d;
 	text-align: center;
+	margin-bottom: 57px;
 }
 .dreams
 {
@@ -143,27 +147,25 @@ width: 400px;
 	
 	font-size: 19px;
 	margin-top: 73px;
-	padding-left: 65px;
+	text-align: center;
+	
 }
 .dream-text
 {  
 	font-family: Ubuntu;
-	font-size: 15px;
-	margin-top: 17px;
-	margin-left: 8px;
+	font-size: 15px;	
 	line-height: 22px;
 	font-weight: 400;
 	letter-spacing: 0.02em;
 	color: #201b2d;
-	width: 290px;
 	text-align: center;
 }
 .dream
 {
-	width: 295px;
+	width: 289px;
 	background: url('../img/firstimage.png')no-repeat top ;
-	margin: 0px;
-	padding-left: 7px;
+	
+	
 }
 .dream-free
 {
@@ -187,7 +189,7 @@ width: 303px;
 }
 .input
 {	
-	width: 320px;
+	width: 100%;
 	border: 1px solid #c7c7c7;
 	opacity: 0.54;
 	font-family: Ubuntu;
@@ -197,15 +199,17 @@ width: 303px;
 	letter-spacing: 0.02em;
 	color: #201b2d;  
 	height: 45px;
+	margin: 0px, auto 15px;
+	padding: 0px;
+	
 	margin-bottom: 15px;
-	padding-left: 25px;
+	text-indent: 25px;;
 }
 
 .form
 {
-	padding-top: 57px;
-  padding-left: 415px;
-  
+	width: 340px;
+	margin: 0 auto;
 }
 .btn2
 {
@@ -218,26 +222,23 @@ font-weight: 900;
 letter-spacing: 0.02em;
 background-color: #ffd429;
 color : #2e2a1b;
-width: 345px;
+width: 342px;
 height: 45px;
+margin:0px;
+padding: 0px;
 }
 .footer
 {
 	background-color: #164d7a;
-	
-	
-}
-.allright
-{
-margin-top: 0px;
-margin-bottom: 0px;
-text-align: center;
-padding-top: 62px;
-padding-bottom: 63px;
-font-family: 'Open Sans';
-font-size: 14px;
-line-height: 25px;
-font-weight: 400;
-letter-spacing: 0.02em;
-color:#ecf3f8;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-top: 62px;
+	padding-bottom: 63px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color:#ecf3f8;
 }
